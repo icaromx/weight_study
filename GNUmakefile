@@ -1,7 +1,7 @@
 CXXFLAGS += -I. $(shell root-config --cflags) -g
 LDFLAGS += $(shell root-config --libs) -g
 
-PROGRAMS = run_Michel_ID_v8
+PROGRAMS = run_Michel_ID_v9
 
 all:		clean $(PROGRAMS)
 
